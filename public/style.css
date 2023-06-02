@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  background-color: rgb(72, 83, 97);
+  color: white;
+}
+
+h1 {
+  text-align: start;
+  font-size: 50px;
+  margin: 0;
+  margin-left: 60px;
+  color: rgb(207, 207, 207);
+}
+
+ul {
+  font-weight: bold;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#centralizarNovaTarefa {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#tarefas {
+  display: inline-block;
+  border: none;
+  margin-left: 2%;
+  width: 95%;
+  background-color: aliceblue;
+  padding: 10px;
+  color: black;
+}
+
+/* Configurações topo */
+
+#minhasTarefas{
+  background-color: rgb(195, 94, 4);
+  margin: 0px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 70%;
+  border-radius: 0px 30px 30px 0px;
+}
+
+/* Fim das onfigurações topo */
+
+/* Configurações dos inputs */
+
+input[type="text"] {
+  width: 80%;
+  padding: 5px;
+  margin: 10px 5px 10px 5px;
+  border: none;
+  border-bottom: 1px solid rgb(157, 154, 154);
+  outline: none;
+  background: none;
+  color: white;
+}
+
+input::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 0.1;
+}
+
+input[type="checkbox"] {
+  margin: 10px 7px 15px 20px;
+}
+
+/* Fim das configurações dos inputs */
+
+/* Configuração dos buttons */
+
+#centralizarNovaTarefa button {
+  margin-left: 10px;
+  padding: 10px 17px;
+  background-color: green;
+  color: white;
+  border-radius: 15px;
+  border: none;
+}
+
+#centralizarNovaTarefa button:hover {
+  background-color: white;
+  color: green;
+}
+
+/* Fim das configuração dos buttons */
+
+
+/* Configurações do botão de excluir */
+
+li .delete-button {
+  border: none;
+  margin-left: 10px;
+}
+
+.custom-trash-icon{
+  color: gray;
+  font-size: 17px;
+}
+
+.custom-trash-icon:hover{
+  color: red;
+}
+
+/* Fim dasonfigurações do botão de excluir */
+
+
+/* Configurações tarefas completas */
+
+.completed-task {
+  text-decoration: line-through;
+  color: green;
+}
+
+
+/* Fim das configurações tarefas completas */
