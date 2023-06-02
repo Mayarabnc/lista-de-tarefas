@@ -41,3 +41,13 @@
     <li>"delete-button": Aplicada ao botão de exclusão de uma tarefa. Você pode personalizar a aparência visual do botão de exclusão usando essa classe.</li>
     <li>"custom-trash-icon": Aplicada ao ícone de lixeira dentro do botão de exclusão. Você pode personalizar a aparência visual do ícone usando essa classe.</li>
   </ul>
+  
+  <h1>Tecnologias</h1>
+  <div>
+   <img width="200px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  <img width="200px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+  <img width="200px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+  </div>
+          
+          
+          
